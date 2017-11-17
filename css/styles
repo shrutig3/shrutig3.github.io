@@ -1,0 +1,277 @@
+body {
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding : 10px;
+}
+
+#containerTable
+{
+	width: 1280px;
+	margin-top : 20px;
+}
+
+#downloadimages {
+	margin-top : -10px; 
+	cursor: pointer; 
+	margin-left: 10px;
+}
+
+#Heading {
+	width: 1280px;
+}
+
+#AutoSearch {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+table {
+	border-collapse:collapse;
+	width: 350px;
+}
+
+.icontables {
+	float: left;
+	margin-left : 15px;
+}
+
+tr {
+	background-color: #fff;
+	text-align: left;
+	cursor: pointer;
+}
+
+td {
+	padding-right:20px;
+	padding-bottom:5px;
+	align : left;
+}
+
+
+img {
+	border : none;
+}
+
+#myForm {
+	background: #e1e1e1; /* Fallback color for non-css3 browsers */
+	width: 350px;
+	height: 50px;
+	
+	/* Gradients */
+	background: -webkit-gradient( linear,left top, left bottom, color-stop(0, rgb(243,243,243)), color-stop(1, rgb(225,225,225)));
+	background: -moz-linear-gradient( center top, rgb(243,243,243) 0%, rgb(225,225,225) 100%);
+	
+	/* Rounded Corners */
+	border-radius: 17px; 
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	
+	/* Shadows */
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3); 
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+}
+/****************************************
+	CSS 3 SEARCH FORM BY CAMERON BANEY
+    Design Blog: http://blog.cameronbaney.com 
+	Twitter: @cameronbaney
+****************************************/
+input[type="text"] {
+/*** TEXT BOX ***/
+	width: 300px;
+	float: left;
+	border-radius : 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	background: #fff; /* Fallback color for non-css3 browsers */
+	
+	/* Gradients */
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(250,250,250)));
+	background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(250,250,250) 100%);
+	
+	border: 0;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid rgba(255,255,255,.8);
+	font-size: 16px;
+	margin: 8px;
+	padding: 5px;
+	width: 250px;
+	
+	/* Rounded Corners */
+	border-radius: 17px; 
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	
+	/* Shadows */
+	box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+	
+<!--	background: url("../Images/Additional/search-zoom-icon.png") right no-repeat;
+	background-position: 280px 3px;
+	padding-left : 5px;-->
+}
+
+
+downloadimages{
+	margin:4px;
+	}
+
+label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #666;
+	float: left;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+#singleimage {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #8C8C8C;
+	float: left;
+	margin-top : 5px;
+	margin-left : 15px;
+	clear : left;
+}
+
+/* Progress bar styles */
+
+.progress-bar {
+	background-color: white;
+	height: 15px;
+	padding: 5px;
+	width: 350px;
+	margin: 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	-webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+	display: inline-block;
+	height: 100%;	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+        -webkit-transition: width .4s ease-in-out;
+        -moz-transition: width .4s ease-in-out;
+        -ms-transition: width .4s ease-in-out;
+        -o-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out;    
+}
+
+.green span {
+	  background-color: #a5df41;
+	  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5df41), to(#4ca916));
+	  background-image: -webkit-linear-gradient(top, #a5df41, #4ca916);
+	  background-image: -moz-linear-gradient(top, #a5df41, #4ca916);
+	  background-image: -ms-linear-gradient(top, #a5df41, #4ca916);
+	  background-image: -o-linear-gradient(top, #a5df41, #4ca916);
+	  background-image: linear-gradient(top, #a5df41, #4ca916);  
+}
+
+.stripes span {
+	-webkit-background-size: 30px 30px;
+	-moz-background-size: 30px 30px;
+	background-size: 30px 30px;			
+	background-image: -webkit-gradient(linear, left top, right bottom,
+						color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),
+						color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),
+						color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),
+						to(transparent));
+	background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);            
+	
+	-webkit-animation: animate-stripes 3s linear infinite;
+	-moz-animation: animate-stripes 3s linear infinite;       		
+}
+
+.glow span {
+	-moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+	-webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+	box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+	
+	-webkit-animation: animate-glow 1s ease-out infinite;
+	-moz-animation: animate-glow 1s ease-out infinite; 			
+}
+
+@-webkit-keyframes animate-glow {
+ 0% { -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;} 
+ 50% { -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;} 
+ 100% { -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+ }
+
+@-moz-keyframes animate-glow {
+ 0% { -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;} 
+ 50% { -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;} 
+ 100% { -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+ }
+.Disclaimer {
+	color: #666;
+	font-size: 9px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+h1 {
+	display: block;
+	text-decoration: none;
+	font: 50px Helvetica, Arial, Sans-Serif;
+	letter-spacing: -4px;
+	text-align: left;
+	color: #2692D2;
+	text-shadow: 0px 2px 2px #888;
+	margin: 0px;
+ }
+
+h2 {
+	text-align: left;
+	color: #A7A7A7;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+#containerTable_DELLIcons
+{
+	width:1280px;
+	float:left;
+	padding-top:40px;
+	clear:both;
+}
+
+#DellImage
+{
+}
+
+.DELLColumn
+{
+	padding-top:25px;
+}
+
